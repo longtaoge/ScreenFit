@@ -1,0 +1,42 @@
+/* Empty. Add your own CSS if you like */
+.tabs {
+    /*Tab 高度*/
+ height : 100px;
+ //   background-color: #387ef5;
+
+
+}
+
+/*默认图标与字体颜色*/
+ion-tabs.tabs-color-active-positive .tab-item {
+    color: darkgreen;
+}
+
+
+.tab-item .icon {
+    /*图标属性*/
+    padding-top : 5px;
+    display: block;
+    margin : 16px ;//auto;
+// 图标与字间距 //
+   height : 32px;  // 高度
+   font-size : 20px;
+// 字号
+}
+
+.tab-item {
+    /*图标属性*/
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", sans-serif;
+    opacity: .7;
+}
+
+.tabs-icon-top > .tabs .tab-item, .tabs-icon-top.tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+
+.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+     color: #387ef5;
+  
+}
